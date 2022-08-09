@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family: 'Ibarra Real Nova', serif;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+}
+
+#header{
+    background-color: #1A4D2E;
+    color: #fffdf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px 10px 10px;
+    font-size: 1.75rem;
+}
+
+#header img{
+    width: 8rem;
+}
+
+#mainContainer{
+    background-color: #fffdf8;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.text-container-about{
+    color: #fffdf8;
+    background-color: black;
+    padding: 30px;
+    border-radius: 1px 1px 8px 8px;
+}
+
+.text-container-about h4{
+    font-size: 2rem;
+}
+
+.menu-container{
+    color: #fffdf8;
+    background-color: black;
+    padding: 30px;
+    border-radius: 1px 1px 8px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.menu-container h3{
+    text-align: center;
+}
+
+#starters{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+}
+#mains{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+#desserts{
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#drinks{
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-tab{
+    height: 80px;
+    font-family:'Ibarra Real Nova', serif;
+    font-size: 1.5rem;
+    border: none;
+    color: #fffdf8;
+    background-color: #1A4D2E;
+    transition: .4s;
+}
+
+.btn-tab:hover{
+    color: #FF9F29;
+}
+
+.btn-tab.active{
+    background-color: black;
+    color: #fffdf8;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fffdf8;
+    background-color: black;
+    padding: 30px;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    position:absolute;
+    bottom: 0%;
+    width: 98vw;
+}
+
+#footer a{
+    color: #FF9F29;
+}
